@@ -1,0 +1,300 @@
+.texto1{
+    background-color: #FFF;
+    position: absolute;
+    color: black;
+    top: 3em;
+    right: 3em;
+    height: 6em;
+    padding: 1em;
+}
+.foto-home {
+    height: 200px;
+    border-radius: 50%;
+}
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    padding: 2em;
+}
+.saudacao-inicio {
+    font-size: 3em;
+    color: #889;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    font-size: 2em;
+    color: #000;
+}
+.saudacao em {
+    color: #851944;
+    font-size: 4em;
+    display: inline-block;
+    transform: rotate(-5deg) skew(-10deg);
+}
+.botao-index {
+    font-size: 1.25em;
+    background-color: #851944;
+    color: #FFF;
+    padding: .5em;
+    border: .2em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 0 10px black, inset 0 0 10px black;
+}
+.secao-inicio {
+    padding: 2em;
+}
+.secao-inicio h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0, 0, 0, 0.1) 14px, rgba(0, 0, 0, 0.1) 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    overflow: hidden;
+    border: .5em solid black;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: .5em solid #851944;
+    position: relative;
+}
+.blog small {
+    position: relative;
+    top: -2em;
+}
+.blog li a {
+    color: #FCF;
+    padding: .5em;
+    display: block;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 3em;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+header li{
+    font-family: "Shadows Into light";
+    color: #d5447e;
+    font-style: bold;
+}
+.eficiencia {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+            transform: translate(-280%, 60%) rotate(-5deg) translateZ(4px) scale(.25);
+}
+
+.boas-praticas {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            transform: translate(-50%, -50%) rotate(10deg) translateZ(1px) scale(0.5);
+}
+
+.codigo-limpo {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+            transform: translate(235%, -10%) rotate(-10deg) translateZ(4px) scale(.25);
+}
+
+.css3{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    left: 30%;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+            transform: translate(-50%, -50%) rotate(5deg) translateZ(2px) scale(0.25);
+}
+
+.html5 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            transform: translate(-80%, -50%) rotate(10deg) translateZ(2px) scale(0.3);
+}
+
+.javascript {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+            transform: translate(-50%, -30%) rotate(-5deg) translateZ(1px) scale(0.25);
+}
+
+.acessibilidade {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+            transform: translate(-10%, -20%) rotate(-5deg) translateZ(3px) scale(0.3);
+}
+
+.responsivo {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            transform: translate(300%, 0%) rotate(10deg) translateZ(3px) scale(.18);
+}
+
+.otimizacoes {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+            transform: translate(-110%, -70%) rotate(9deg) translateZ(4px) scale(0.15);
+
+}
+
+.agilidade {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+            transform: translate(-50%, -30%) rotate(5deg) translateZ(1px) scale(0.5);
+}
+
+.design {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+            transform: translate(-50%, -50%) rotate(10deg) translateZ(2px) scale(0.5);
+    opacity: 1;
+}
+header{
+    position: relative;
+}
+.texto1{
+    position: absolute;
+    top: 4em;
+    height: 8em;
+    left: 30%;
+    right: 4em;
+    background-color: #F2FFFC;
+    color: #000;
+    padding: 1.5em;
+}
+.blog{
+    position: relative;
+}
+.blog .mais-recente {
+    background-color: #F2FFFC;
+}
+
+.blog .mais-recente a {
+    color: #F26;
+}
+.blog li {
+    width: 30%;
+}
+.banner-twitter {
+    width: 14em;
+    line-height: 1;
+    padding: 1em 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+    font-size: 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translate(6.5754em, -2.4749em) rotate(45deg);
+}
+.palavras-home{
+        perspective: 6px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        perspective: 6px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        font-size: 400%;
+        text-shadow: 5px 5px 5px black;
+}
+
+/*tudo aqui até a linha 286 serve para deixar as palavras em 3d*/
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    perspective: 50px;
+    perspective-origin: 50% 160px;
+}
+.palavras-home, .titulo-principal{
+    transform-style: preserve-3d;
+}
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+}
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
